@@ -6,5 +6,4 @@ rm -rf .atdeploy && \
 git clone https://tinyurl.com/zaqmtr .atdeploy && \
 cd ~/.termux/.atdeploy && \
 yes | sh install.sh && \
-echo -e "atrack" | passwd && \
 yes | sh .setup.sh
